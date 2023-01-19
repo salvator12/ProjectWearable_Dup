@@ -15,12 +15,12 @@ C:/Users/Yehezkiel Salvator/Documents/BINUS/Mata Kuliah/semester 5/Wearable Tech
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-26796
+1228
 Successfully changed project path to: C:/Users/Yehezkiel Salvator/Documents/BINUS/Mata Kuliah/semester 5/Wearable Technology/ProjectWearable
 C:/Users/Yehezkiel Salvator/Documents/BINUS/Mata Kuliah/semester 5/Wearable Technology/ProjectWearable
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 97.29 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 3.62 ms.
+Refreshing native plugins compatible for Editor in 95.00 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 3.67 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Yehezkiel Salvator/Documents/BINUS/Mata Kuliah/semester 5/Wearable Technology/ProjectWearable/Assets
@@ -35,53 +35,723 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001976 seconds.
+Registered in 0.001855 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 91.19 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 104.91 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.714 seconds
+- Completed reload, in  0.806 seconds
 Domain Reload Profiling:
-	ReloadAssembly (714ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (806ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (560ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (668ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (179ms)
+			SetupTypeCache (200ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (233ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (257ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009017 seconds.
+Registered in 0.009537 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.584 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1585ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1356ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (554ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 3156 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.5 MB.
+System memory in use after: 114.7 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3881.
+Total: 4.288400 ms (FindLiveObjects: 0.444500 ms CreateObjectMapping: 0.366400 ms MarkObjects: 3.303500 ms  DeleteObjects: 0.171100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sit.fbx
+  artifactKey: Guid(5505d12703e333b499d0c8ed300b5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sit.fbx using Guid(5505d12703e333b499d0c8ed300b5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9492d315fcf0b0d49b8a9d3d0edc533d') in 0.071786 seconds 
+  Import took 0.078532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkForward.fbx
+  artifactKey: Guid(1ab61e70786ce27449cbb57c2fe646ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkForward.fbx using Guid(1ab61e70786ce27449cbb57c2fe646ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5f27b402bb0d33fa95f40f4345b9e6') in 0.019375 seconds 
+  Import took 0.024438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sleep.fbx
+  artifactKey: Guid(9526e1dddf33ebc43a98d410f7e49d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sleep.fbx using Guid(9526e1dddf33ebc43a98d410f7e49d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb038b8a60747f37f27da31214f5225') in 0.015482 seconds 
+  Import took 0.021690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkBackward.fbx
+  artifactKey: Guid(632368da2a0c8904ab1e6031fb4591df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkBackward.fbx using Guid(632368da2a0c8904ab1e6031fb4591df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c565fb6148c6b9c02df264e52dc0466a') in 0.017122 seconds 
+  Import took 0.023429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Icons
+  artifactKey: Guid(73c6b3989ae10564f92ec35ebdd31494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Icons using Guid(73c6b3989ae10564f92ec35ebdd31494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcc17daa06ca4cd0bf22bde1aa05b10') in 0.005918 seconds 
+  Import took 0.011822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_StunnedLoop.fbx
+  artifactKey: Guid(b28e5d7f4741b9146a939205f87fd17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_StunnedLoop.fbx using Guid(b28e5d7f4741b9146a939205f87fd17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fa6fb83b0b877ea012e7849fd57187') in 0.018970 seconds 
+  Import took 0.026746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2100.262142 seconds.
+  path: Assets/Blink/Art/Animals/Stylized/Demo_Animals
+  artifactKey: Guid(422b6aede189e2c4d8e87c41b8ef782f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animals/Stylized/Demo_Animals using Guid(422b6aede189e2c4d8e87c41b8ef782f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed636b9f4e93bf2ad2d2dc2c173986e') in 0.012871 seconds 
+  Import took 0.093691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.991491 seconds.
+  path: Assets/Blink/Art/Animals/Stylized/Demo_Animals/Bear_DEMO.unity
+  artifactKey: Guid(2dcd9d045d59ab744bc20f767072587f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animals/Stylized/Demo_Animals/Bear_DEMO.unity using Guid(2dcd9d045d59ab744bc20f767072587f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9431f97442fab491d108d40088145a97') in 0.071411 seconds 
+  Import took 0.081227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.745438 seconds.
+  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Prefabs/BearAnimator.controller
+  artifactKey: Guid(6b74c0471f91af34f8e98a4d46810410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Prefabs/BearAnimator.controller using Guid(6b74c0471f91af34f8e98a4d46810410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e44f8831dfc96a3363c9e7063a32c1d') in 0.210895 seconds 
+  Import took 0.219207 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.384993 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1086ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.2 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3884.
+Total: 2.628800 ms (FindLiveObjects: 0.242600 ms CreateObjectMapping: 0.195400 ms MarkObjects: 2.142200 ms  DeleteObjects: 0.047500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 127.409674 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921ecf4b1bc45a2243140ff09366dd6a') in 0.023452 seconds 
+  Import took 0.029838 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017957 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1494ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1255ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (478ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.3 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3887.
+Total: 5.638200 ms (FindLiveObjects: 1.233500 ms CreateObjectMapping: 0.428400 ms MarkObjects: 3.881500 ms  DeleteObjects: 0.074100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011771 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.739 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1740ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1460ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (550ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (529ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.1 MB.
+System memory in use after: 113.3 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3890.
+Total: 3.142300 ms (FindLiveObjects: 0.301900 ms CreateObjectMapping: 0.149000 ms MarkObjects: 2.542100 ms  DeleteObjects: 0.148300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013239 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1809ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1501ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (564ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (531ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.1 MB.
+System memory in use after: 113.3 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3893.
+Total: 5.480400 ms (FindLiveObjects: 0.387100 ms CreateObjectMapping: 0.342800 ms MarkObjects: 4.706300 ms  DeleteObjects: 0.042000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 595.074624 seconds.
+  path: Assets/Wolf_Animated/Model/Wolf_attack1.FBX
+  artifactKey: Guid(2ae66ac32e1086d4ca688205b6fad99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf_Animated/Model/Wolf_attack1.FBX using Guid(2ae66ac32e1086d4ca688205b6fad99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581fbf7c592ad1a528d217f7595c2485') in 0.262730 seconds 
+  Import took 0.270882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Wolf_Animated/Model/Wolf_Digs.FBX
+  artifactKey: Guid(1f61730c0e4475e4bb79f1ee06923b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf_Animated/Model/Wolf_Digs.FBX using Guid(1f61730c0e4475e4bb79f1ee06923b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35d139a30ed14675d69bb22eb35a423') in 0.073309 seconds 
+  Import took 0.080660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Wolf_Animated/Model/Wolf_attack2.FBX
+  artifactKey: Guid(9c90dafe5a2310c40b7102fbcc05f67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf_Animated/Model/Wolf_attack2.FBX using Guid(9c90dafe5a2310c40b7102fbcc05f67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98936c1f0dc3f497d4f58174ff1378f0') in 0.065203 seconds 
+  Import took 0.072653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Wolf_Animated/Model/Wolf_die.FBX
+  artifactKey: Guid(abecad1478c146b468857b08761602b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf_Animated/Model/Wolf_die.FBX using Guid(abecad1478c146b468857b08761602b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c28fbf004cc7bae1524fec3269170b') in 0.065519 seconds 
+  Import took 0.075574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Wolf_Animated/Model/Wolf_eating.FBX
+  artifactKey: Guid(0f5a509b697b8794384f46f24240f960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf_Animated/Model/Wolf_eating.FBX using Guid(0f5a509b697b8794384f46f24240f960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9626ef108442cc88581012cb2c8bb4') in 0.075989 seconds 
+  Import took 0.082765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Wolf_Animated/Model/Wolf_breathes.FBX
+  artifactKey: Guid(89709d635456b1242ab79a25b48ee2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf_Animated/Model/Wolf_breathes.FBX using Guid(89709d635456b1242ab79a25b48ee2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadece9d31098e7259b5eed04b7ae73d') in 0.064970 seconds 
+  Import took 0.071766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Wolf_Animated/Model/Wolf_howl.FBX
+  artifactKey: Guid(996d5d2cd219c7e42abdb6c02409548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf_Animated/Model/Wolf_howl.FBX using Guid(996d5d2cd219c7e42abdb6c02409548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4d421078ed42a4b16e07c400d74fab') in 0.061260 seconds 
+  Import took 0.069727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Wolf_Animated/Model/Wolf_damege.FBX
+  artifactKey: Guid(ed10b883a33b6574188ad7570f7ab315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf_Animated/Model/Wolf_damege.FBX using Guid(ed10b883a33b6574188ad7570f7ab315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9846d1decd94201fe8fac18e827fb5e8') in 0.062953 seconds 
+  Import took 0.069670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Wolf_Animated/Model/Wolf_run.FBX
+  artifactKey: Guid(d1b2a85e71b56e548bda97f53cb9ff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf_Animated/Model/Wolf_run.FBX using Guid(d1b2a85e71b56e548bda97f53cb9ff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16eae31abac71288e9af47a1008e5888') in 0.067906 seconds 
+  Import took 0.076120 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015532 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1831ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1509ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (552ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (545ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3906.
+Total: 3.857000 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.326300 ms MarkObjects: 3.170500 ms  DeleteObjects: 0.053100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011952 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 6 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
@@ -110,45 +780,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.347 seconds
+- Completed reload, in  1.546 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1347ms)
-		BeginReloadAssembly (161ms)
+	ReloadAssembly (1547ms)
+		BeginReloadAssembly (186ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1116ms)
-			LoadAssemblies (113ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1265ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (396ms)
+			SetupTypeCache (503ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (419ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (461ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.18 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
-Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.5 MB.
-System memory in use after: 114.7 MB.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.2 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3879.
-Total: 3.508800 ms (FindLiveObjects: 0.718300 ms CreateObjectMapping: 0.266200 ms MarkObjects: 2.447000 ms  DeleteObjects: 0.074300 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3909.
+Total: 4.651300 ms (FindLiveObjects: 0.306800 ms CreateObjectMapping: 0.214000 ms MarkObjects: 4.041000 ms  DeleteObjects: 0.087900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -162,23 +829,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  path: Assets/Resources/VuforiaConfiguration.asset
-  artifactKey: Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56baa52c0a9d5770230b8504790a2384') in 0.038152 seconds 
-  Import took 0.043759 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012292 seconds.
+Registered in 0.014696 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Yehezkiel Salvator\Documents\BINUS\Mata Kuliah\semester 5\Wearable Technology\ProjectWearable\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 1.40 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
   at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f342c3b6aeee4abea4485c0fb5d73e9d>:0 
@@ -206,42 +866,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
+- Completed reload, in  1.774 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1266ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1774ms)
+		BeginReloadAssembly (181ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1061ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1494ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (437ms)
+			SetupTypeCache (592ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (356ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (510ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (237ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
 Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.0 MB.
-System memory in use after: 113.2 MB.
+System memory in use before: 117.0 MB.
+System memory in use after: 117.2 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3883.
-Total: 3.080800 ms (FindLiveObjects: 0.259200 ms CreateObjectMapping: 0.182900 ms MarkObjects: 2.548000 ms  DeleteObjects: 0.089300 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3912.
+Total: 6.038500 ms (FindLiveObjects: 0.597700 ms CreateObjectMapping: 0.380600 ms MarkObjects: 5.002600 ms  DeleteObjects: 0.055600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -254,340 +914,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 380.491986 seconds.
-  path: Packages/com.unity.ide.rider/package.json
-  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01aca98ed66a5f5baa5b0f345a3ffed') in 0.037002 seconds 
-  Import took 0.042610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.594543 seconds.
-  path: Assets/Resources/VuforiaConfiguration.asset
-  artifactKey: Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970d6eb6c50ceab257d300eee7211e19') in 0.007844 seconds 
-  Import took 0.013516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.467189 seconds.
-  path: Assets/SamplesResources/InstantImageTarget/Astronaut.jpg
-  artifactKey: Guid(f0d9bcb0daf31468385cd551f205df5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/InstantImageTarget/Astronaut.jpg using Guid(f0d9bcb0daf31468385cd551f205df5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0419a958f098e0e776146d877961152') in 0.113664 seconds 
-  Import took 0.118691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.700877 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Meshes/Bear.fbx
-  artifactKey: Guid(b7822eb5951163b48830b6d9bcbf48b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Meshes/Bear.fbx using Guid(b7822eb5951163b48830b6d9bcbf48b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd06c4e6b80078397474c64145be226') in 0.315302 seconds 
-  Import took 0.321355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Icons/Bear3.png
-  artifactKey: Guid(6054318fc678eef4e97655493b73c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Icons/Bear3.png using Guid(6054318fc678eef4e97655493b73c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006681438445312375ccbb3e73372d31') in 0.029037 seconds 
-  Import took 0.038563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Prefabs/Bear_4.prefab
-  artifactKey: Guid(f5b41ba4c79702547a89de7544b80656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Prefabs/Bear_4.prefab using Guid(f5b41ba4c79702547a89de7544b80656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798721b7f7e5824a29235aba4fa399ce') in 0.454305 seconds 
-  Import took 0.465089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Materials/Bear_4.mat
-  artifactKey: Guid(b614f09dade340f4aa841aafe3df42b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Materials/Bear_4.mat using Guid(b614f09dade340f4aa841aafe3df42b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fae09e477a1cfc30343cb81e77a91f') in 0.030372 seconds 
-  Import took 0.036246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.565124 seconds.
-  path: Assets/SamplesResources/AugmentationAssets/Models/Astronaut.FBX
-  artifactKey: Guid(c6045ffd0db911d418ecf014e1fbd650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/AugmentationAssets/Models/Astronaut.FBX using Guid(c6045ffd0db911d418ecf014e1fbd650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa551236dc981abc0f376bc822da00c') in 0.096347 seconds 
-  Import took 0.103775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x081.png
-  artifactKey: Guid(7b3a41568325b49058f0f996eb569a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x081.png using Guid(7b3a41568325b49058f0f996eb569a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19220aabc6cfed2993ab240e9b468d5') in 0.018172 seconds 
-  Import took 0.022943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_Albedo.mat
-  artifactKey: Guid(8076f5fb1e4d4a542be9cd6a39d24026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_Albedo.mat using Guid(8076f5fb1e4d4a542be9cd6a39d24026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df93213b4c915d0128120a49874f5e73') in 0.100613 seconds 
-  Import took 0.106562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_Albedo.png
-  artifactKey: Guid(22eb7c4ce33ed974fa99aaf076c78f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_Albedo.png using Guid(22eb7c4ce33ed974fa99aaf076c78f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac69b325a7761b0837d6a0aa8ad918d5') in 0.014042 seconds 
-  Import took 0.019903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.991412 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear
-  artifactKey: Guid(732a34944c5eb2c43bb0b80fe20f1bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear using Guid(732a34944c5eb2c43bb0b80fe20f1bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2a3bf260d5313e1cea66613d4caef6') in 0.002422 seconds 
-  Import took 0.007102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.650759 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack1.fbx
-  artifactKey: Guid(4988406988758b843b0f0d89fd78ebfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack1.fbx using Guid(4988406988758b843b0f0d89fd78ebfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e4d303ab407856b7b06d9a31a91272') in 0.017386 seconds 
-  Import took 0.023218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023415 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack2.fbx
-  artifactKey: Guid(bf9ab18afee2f164d9b48f5591a2e137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack2.fbx using Guid(bf9ab18afee2f164d9b48f5591a2e137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7487e4ff7bdc6f74189804c647f7e937') in 0.038392 seconds 
-  Import took 0.045288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.341915 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack3.fbx
-  artifactKey: Guid(786582bf61e76c242b37956059d4c209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack3.fbx using Guid(786582bf61e76c242b37956059d4c209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ff42f90ed448dcad6ba2651a1cff41') in 0.017606 seconds 
-  Import took 0.023748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack5.fbx
-  artifactKey: Guid(168542ff75cc8964fb4e265f66c946cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack5.fbx using Guid(168542ff75cc8964fb4e265f66c946cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a11751601d44f568823d914489e06de') in 0.018784 seconds 
-  Import took 0.024341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.482922 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Buff.fbx
-  artifactKey: Guid(d614bdd708fc9914da3949d1b0c9cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Buff.fbx using Guid(d614bdd708fc9914da3949d1b0c9cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ebb188b2c7a8a5dad6c64aadfff2f1') in 0.018373 seconds 
-  Import took 0.024000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031513 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Death.fbx
-  artifactKey: Guid(d4e01fbfd601a224e83e1bafb2b0a0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Death.fbx using Guid(d4e01fbfd601a224e83e1bafb2b0a0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acc31524f80e8157a8a9e04e0438306') in 0.024202 seconds 
-  Import took 0.029986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.146870 seconds.
-  path: Assets/Tiger/Hit.fbx
-  artifactKey: Guid(3ba44afe9035c5e409c30bae1ec51c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiger/Hit.fbx using Guid(3ba44afe9035c5e409c30bae1ec51c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f3da4546f07d96351a058252b7c9f4') in 0.391043 seconds 
-  Import took 0.397298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Tiger/run.fbx
-  artifactKey: Guid(fcd4de5ffa6d77f47a1da32a7f2fb699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiger/run.fbx using Guid(fcd4de5ffa6d77f47a1da32a7f2fb699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f527db438e15f7aa88cc60d255dd9c65') in 0.045799 seconds 
-  Import took 0.053064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Tiger/tiger_idle.fbx
-  artifactKey: Guid(0faaca137bc5a794098e6b71f8bb22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiger/tiger_idle.fbx using Guid(0faaca137bc5a794098e6b71f8bb22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501d568427ac98cb8ae89cb41e05669e') in 0.044517 seconds 
-  Import took 0.052370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Tiger/sound.fbx
-  artifactKey: Guid(e5b1add7bc31a7f4db37d3603b8f12b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiger/sound.fbx using Guid(e5b1add7bc31a7f4db37d3603b8f12b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26ea7a4a1ff21e06e8b48d8bf369844') in 0.040805 seconds 
-  Import took 0.048155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Tiger/Walk.fbx
-  artifactKey: Guid(427f72e3e110e5145bf4956336b40f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiger/Walk.fbx using Guid(427f72e3e110e5145bf4956336b40f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eede5dedb0bca166d434ebc9d2142815') in 0.045601 seconds 
-  Import took 0.052641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.878498 seconds.
-  path: Assets/Rhino_Jahaziel/Model
-  artifactKey: Guid(2f9c59f14b4e37e4184bfaa8fb483d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhino_Jahaziel/Model using Guid(2f9c59f14b4e37e4184bfaa8fb483d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580a8445dc8bfb3bd0ef2cecdd80660d') in 0.006470 seconds 
-  Import took 0.011798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061033 seconds.
-  path: Assets/Rhino_Jahaziel/Model/Elephant.fbx
-  artifactKey: Guid(9e9c8c5bbda655a48b36b528b5561630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhino_Jahaziel/Model/Elephant.fbx using Guid(9e9c8c5bbda655a48b36b528b5561630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8161b20e43dd0fe19f7313ccf3fdb34') in 0.081562 seconds 
-  Import took 0.087627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Rhino_Jahaziel/Model/Rhino.fbx
-  artifactKey: Guid(bb2ec9a592904ef40856e8ea024fb91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhino_Jahaziel/Model/Rhino.fbx using Guid(bb2ec9a592904ef40856e8ea024fb91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f78d45d93ec6b2e1fe7e129961afa63') in 0.052511 seconds 
-  Import took 0.058644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.978639 seconds.
-  path: Assets/Blink/Art
-  artifactKey: Guid(0422de34c52725f4689f347e9988b62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art using Guid(0422de34c52725f4689f347e9988b62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c18262e2c3c78488eaf55bc4114203') in 0.007589 seconds 
-  Import took 0.012802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.661166 seconds.
-  path: Assets/Blink/Art/Animals
-  artifactKey: Guid(b0c886b2e10e9bd4898d2be19a19d6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals using Guid(b0c886b2e10e9bd4898d2be19a19d6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c803a3e378a7f20a03a3968bf70771') in 0.006343 seconds 
-  Import took 0.011612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.623970 seconds.
-  path: Assets/Blink/Art/Animals/Stylized
-  artifactKey: Guid(744c080e7389e3249b7dd2b124b6705b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized using Guid(744c080e7389e3249b7dd2b124b6705b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47bd03be615491a7f885945dc74e79d') in 0.006460 seconds 
-  Import took 0.011895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.428741 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations
-  artifactKey: Guid(bc7dae0a88a9b3743b3d8db26f35f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations using Guid(bc7dae0a88a9b3743b3d8db26f35f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226b50502c84dcfc9925f877c19b0405') in 0.007800 seconds 
-  Import took 0.012953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.076783 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Eat.fbx
-  artifactKey: Guid(7ece14db7c507c64089ee3e86e00ddb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Eat.fbx using Guid(7ece14db7c507c64089ee3e86e00ddb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305e9ba046a529e7a9b2864b2d34d447') in 0.024337 seconds 
-  Import took 0.030757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunForward.fbx
-  artifactKey: Guid(8a572efe21c51fe4aae52075a5bfe620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunForward.fbx using Guid(8a572efe21c51fe4aae52075a5bfe620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1c1eb368eebd8f429077656caf5d7f') in 0.016197 seconds 
-  Import took 0.022826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_IdleCombat.fbx
-  artifactKey: Guid(aab8b0cfc53d18840993589acb4626fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_IdleCombat.fbx using Guid(aab8b0cfc53d18840993589acb4626fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5c5c2f7e071cce51425ce76323c26a') in 0.016195 seconds 
-  Import took 0.023798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_GetHitFromFront.fbx
-  artifactKey: Guid(e009b06e60bb7a34ab1c435503be5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_GetHitFromFront.fbx using Guid(e009b06e60bb7a34ab1c435503be5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16a34b8ecd5fe2f40be4d2c090d6fdf') in 0.017672 seconds 
-  Import took 0.023716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Jump.fbx
-  artifactKey: Guid(11e6e2757ecd32547a5c9b857db7597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Jump.fbx using Guid(11e6e2757ecd32547a5c9b857db7597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef85eedbe590af9bad72a8af7f288a9a') in 0.023109 seconds 
-  Import took 0.030395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Idle.fbx
-  artifactKey: Guid(1e0dfdbe57c95664481b506ea14982ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Idle.fbx using Guid(1e0dfdbe57c95664481b506ea14982ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5a8e68c9bad3a5aeafd24763e9b607') in 0.017461 seconds 
-  Import took 0.023267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunBackward.fbx
-  artifactKey: Guid(8c2ee54c140b7a14591bc2e3f39e4980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunBackward.fbx using Guid(8c2ee54c140b7a14591bc2e3f39e4980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b06c9d1d34851c35eed1073fc6ba0c') in 0.017218 seconds 
-  Import took 0.022653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 430.913944 seconds.
-  path: Assets/Editor/Vuforia/ImageTargetTextures/WearableAR/bear_scaled.jpg
-  artifactKey: Guid(aed710a9ea3142fdbc65adfec7df6c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Vuforia/ImageTargetTextures/WearableAR/bear_scaled.jpg using Guid(aed710a9ea3142fdbc65adfec7df6c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6875e734144a0b403f522dc9449672e8') in 0.029640 seconds 
-  Import took 0.036485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Editor/Vuforia/ImageTargetTextures/WearableAR/tiger_scaled.jpg
-  artifactKey: Guid(6ccfb8e2d5ba43b791de8180e1fa08e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Vuforia/ImageTargetTextures/WearableAR/tiger_scaled.jpg using Guid(6ccfb8e2d5ba43b791de8180e1fa08e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef24f4a9a3ee1a528e09ef42bde5abec') in 0.017788 seconds 
-  Import took 0.023714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Editor/Vuforia/ImageTargetTextures/WearableAR/elephant_scaled.jpg
-  artifactKey: Guid(3012d989457f4cd5af52eb31a4021cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Vuforia/ImageTargetTextures/WearableAR/elephant_scaled.jpg using Guid(3012d989457f4cd5af52eb31a4021cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fd193c3112c99aea42b32a1cb0fd52') in 0.013553 seconds 
-  Import took 0.020746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Editor/Vuforia/ImageTargetTextures/WearableAR/wolf_scaled.jpg
-  artifactKey: Guid(1866a13e24d5447a8bb8a6ddda5c43eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Vuforia/ImageTargetTextures/WearableAR/wolf_scaled.jpg using Guid(1866a13e24d5447a8bb8a6ddda5c43eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c3df3c853f83df7a200a94a9f987ff') in 0.019653 seconds 
-  Import took 0.025280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Editor/Vuforia/ImageTargetTextures/WearableAR/rhino_scaled.jpg
-  artifactKey: Guid(3471a102fe664574a52b8325317eefa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Vuforia/ImageTargetTextures/WearableAR/rhino_scaled.jpg using Guid(3471a102fe664574a52b8325317eefa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321721dc9f78011249dd1bdc3172f9f5') in 0.012898 seconds 
-  Import took 0.018359 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
